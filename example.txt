@@ -1,0 +1,17 @@
+interface Data {
+  a :: Nat;
+  b :: Nat;
+  Plus() :: Nat;
+};
+
+[]
+Plus() :: Nat;
+
+[ASYNC, WASM_BINDING]
+Plus() :: Nat;
+
+[ASYNC, WASM_BINDING]
+Plus(a :: String, b :: Nat, ) :: Nat;
+
+[ASYNC, WASM_BINDING]
+Plus(a :: String, b :: Nat) :: Nat;
