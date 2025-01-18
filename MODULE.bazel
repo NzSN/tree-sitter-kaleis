@@ -1,0 +1,5 @@
+module(
+    name = "tree-sitter-kaleis",
+    version = "0.0.1",
+    compatibility_level = 1
+)

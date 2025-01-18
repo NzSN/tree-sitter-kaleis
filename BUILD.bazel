@@ -1,0 +1,10 @@
+
+cc_library(
+    name = "tree-sitter-kaleis",
+    srcs = ["src/parser.c",
+            "src/tree_sitter/alloc.h",
+            "src/tree_sitter/array.h",
+            "src/tree_sitter/parser.h"],
+    hdrs = ["bindings/c/tree-sitter-kaleis.h"],
+    visibility = ["//visibility:public"]
+)
